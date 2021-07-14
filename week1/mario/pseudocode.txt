@@ -1,0 +1,12 @@
+prompt user for number of bricks
+- number must be between 1 and 8, inclusive
+- a variable
+
+set a counter starting at 1
+- a variable
+
+print out <space - counter> and then <hash * counter>
+- a for loop
+- make sure to increment 
+
+stop once the counter == initial number of bricks

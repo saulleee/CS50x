@@ -1,0 +1,62 @@
+sort1 uses: bubble sort
+
+How do you know?: it generally has a faster time than sort3 (if not equal to), especially seen
+
+sort2 uses: merge sort
+
+How do you know?: it constantly has the fastest times, especially with random.txt
+
+sort3 uses: selection sort
+
+How do you know?: it's the slowest, especially seen with sort.txt, where it has to go through each step every time
+
+
+1 bubble
+2 merge
+3 selection
+
+
+random5000
+sort1 0.100s
+sort2 0.010s
+sort3 0.030 to 0.100s
+
+random10000
+sort1 0.380s to 0.640s
+sort2 0.020s to 0.200s
+sort3 0.160s to 0.250s
+
+random50000
+sort1
+sort2
+sort3
+
+reversed5000
+sort1
+sort2
+sort3
+
+reversed10000
+sort1 0.370s to 0.410s
+sort2 0.020s
+sort3 0.170s to 0.360s
+
+reversed50000
+sort1
+sort2
+sort3
+
+sorted5000
+sort1
+sort2
+sort3
+
+sorted10000
+sort1 0.02s to 0.90s
+sort2 0.02s to 0.09s
+sort3 0.07s to 0.27s
+
+sorted50000
+sort1 1.33s to 3.07s
+sort2 1.50s to 3.16s
+sort3 6.42s to 7.13s
